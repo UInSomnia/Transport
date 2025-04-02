@@ -45,7 +45,7 @@ int main()
 
         show_vehicle(&bicycle);
 
-        show_vehicle(nullptr);
+        // show_vehicle(nullptr);
     }
     catch (const std::exception& e)
     {
