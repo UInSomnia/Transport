@@ -2,6 +2,7 @@
 #define INSOMNIA_BICYCLE_H
 
 #include <string>
+#include <stdexcept>
 
 #include "vehicle.h"
 

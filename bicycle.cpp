@@ -2,7 +2,8 @@
 
 namespace InSomnia
 {
-    Bicycle::Bicycle()
+    Bicycle::Bicycle() :
+        Vehicle()
     {
         
     }
@@ -18,6 +19,7 @@ namespace InSomnia
 
     void Bicycle::start()
     {
-
+        throw std::runtime_error(
+            "The bike does not have an engine. It is impossible to start the engine of the bike!");
     }
 }

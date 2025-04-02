@@ -42,6 +42,7 @@ int main()
         const uint16_t bicycle_count_wheels = 2u;
         const uint16_t bicycle_count_seats = 1u;
         Bicycle bicycle(bicycle_model, bicycle_count_wheels, bicycle_count_seats);
+        // bicycle.start();
 
         show_vehicle(&bicycle);
 
